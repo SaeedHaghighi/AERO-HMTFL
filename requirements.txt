@@ -1,0 +1,5 @@
+confluent-kafka
+numpy
+scikit-learn
+torch
+torchvision
