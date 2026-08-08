@@ -69,20 +69,6 @@ Start Kafka first, then run:
 python run_simulation.py
 ```
 
-The simulator can also be configured directly in Python:
-
-```python
-from mftl import Simulator
-
-simulator = Simulator(
-    num_vehicles=40,
-    cluster_size=5,
-    attacker_fraction=0.1,
-    rounds=100,
-)
-
-ch_accuracy, cm_accuracy, epc_accuracy = simulator.run()
-```
 
 ## Main components
 
